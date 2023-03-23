@@ -9,5 +9,7 @@ server:
 
 eureka:
   client:
+    #these are false only for server config
+    #for clients it will be true
     fetch-registry: false
     register-with-eureka: false

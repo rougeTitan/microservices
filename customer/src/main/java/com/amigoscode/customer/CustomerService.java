@@ -24,6 +24,8 @@ public class CustomerService {
                 .build();
         // todo: check if email valid
         // todo: check if email not taken
+
+        //save customer in db
         customerRepository.saveAndFlush(customer);
 
         FraudCheckResponse fraudCheckResponse =
